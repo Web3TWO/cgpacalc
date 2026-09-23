@@ -453,6 +453,24 @@
                 width: 100%;
             }
         }
+
+        .download-btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 12px 22px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background: #6d28d9;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 
@@ -1333,7 +1351,9 @@
 
         render();
     </script>
-
+    <a href="/downloads/cgpacalc-by-tommy-main-29ade3-release.apk" download class="download-btn">
+        Download CGPACalc Android App
+    </a>
 </body>
 
 </html>
