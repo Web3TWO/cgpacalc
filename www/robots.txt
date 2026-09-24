@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cgpacalcbytommy.netlify.app/sitemap.xml
